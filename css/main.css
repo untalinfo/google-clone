@@ -169,3 +169,85 @@ footer ul li a {
     margin: 10px;
     color: #5f6368;
 }
+
+/****************
+***RESPONSIVE****
+*****************/
+
+/* Mobile */
+@media(max-width: 700px){
+
+    main {
+        margin-top: 90px;
+    }
+
+    main .main-logo {
+        width: 230px;
+    }
+
+    main .main-logo img {
+        width: 180px;
+    }
+
+    main .main-input {
+        width: 230px;
+        margin-bottom: 25px;
+    }
+
+    main .main-input-container {
+        width: 225px;
+    }
+
+    main .main-input .search-icon {
+        width: 11px;
+        height: 11px;
+    }
+
+    main .main-input input {
+        width: 160px;
+        height: 35px;
+    }
+
+    main .main-input .micro-icon {
+        width: 11px;
+        height: 11px;
+    }
+
+    main .main-buttons {
+        width: 230px;
+    }
+
+    main .main-buttons button {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    footer {
+        height: auto;
+        font-size: 8px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    footer ul {
+        margin: 5px;
+    }
+
+    footer .footer-left {
+        grid-row: 2;
+        justify-self: center;
+    }
+
+    footer .footer-right {
+        grid-row: 1;
+        justify-self: center;
+    }
+}
+
+/* Tablet */
+@media(max-width: 1000px){
+
+    main {
+        margin-top: 100px;
+    }
+}
